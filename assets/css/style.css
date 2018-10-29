@@ -1,0 +1,41 @@
+/* ------------- page accueil ------------------------------*/
+
+.navbar{
+    background-color: black;
+    
+}
+
+.navbar a{
+    color: white;
+}
+
+.logo{
+    color: darkred;
+}
+
+.jumbotron{
+    background-image: url("../img/wallpaper2.jpg");
+    background-size:cover;
+    height: 800px;
+}
+.jumbotron a{
+    margin: 30px 20px;
+}
+
+.jumbotron p{
+    font-weight: 500;
+}
+.citation{
+    font-style: italic; 
+}
+
+.welcome{
+    font-weight: 500;
+    margin-top: 70px;
+}
+/* -------- Fin page Accueil --------------------*/
+
+
+.page-title{
+    padding: 30px;
+}
