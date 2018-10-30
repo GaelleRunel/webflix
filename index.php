@@ -11,7 +11,7 @@
         <hr class="my-4">
         <p class="citation">"Tu prends la pilule bleue, l'histoire s'arrête là, tu te réveilles dans ton lit, et tu crois ce que tu veux. </br>
         Tu prends la pilule rouge, tu restes au Pays des Merveilles et je te montre jusqu'où va le terrier..."</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button"> STOP... </a>  <a class="btn btn-danger btn-lg" href="#" role="button"> GO ! ...</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button"> STOP... </a>  <a class="btn btn-danger btn-lg" href="movie_list.php" role="button"> GO ! ...</a>
     </div>
      
 
