@@ -110,7 +110,7 @@ if (!empty($_POST)) { // Récupére les informations saisies dans le formulaire
             </div>
         <?php } ?>
 
-     <form method="POST" enctype="multipart/form-data"">
+     <form method="POST" enctype="multipart/form-data">
 
         <div class="form-group">
             <label for="movie-title">Titre du film</label>

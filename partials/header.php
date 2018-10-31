@@ -38,7 +38,6 @@ require_once(__DIR__.'/../config/database.php');
       <li class="nav-item">
         <a class="nav-link" href="movie_add.php">Ajouter un film</a>
       </li>
-      
     </ul>
   </div>
 </nav>

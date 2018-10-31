@@ -33,7 +33,7 @@ $movies = $query->fetchAll();
                             <a href="<?="movie_single.php?id=". $movie['id'] ?>" class="btn btn-dark">Voir la fiche du film</a>
                              <!-- quand on clique sur le lien, on doit se rendre sur la page film-single.php
                                  et l'URL doit ressembler à movie_single.php?id=ID du film -->
-
+                                 
                          </div>
                      </div>
                  </div>

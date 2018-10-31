@@ -38,13 +38,15 @@ $category = $query->fetch();
         <div class= "col-md-6">
             <h3><?php echo $movie['title'];?></h3></br>
             <div class="description">
-            <h4>Catégorie : <?php echo $category['name'] ; ?></h4></br>
-            <h5>Date de sortie : <?php echo $movie['released_at'];?></h5></br>
-            <h6><?php echo $movie['description']; ?></h6></br>
+                <h4>Catégorie : <?php echo $category['name'] ; ?></h4></br>
+                <h5>Date de sortie : <?php echo $movie['released_at'];?></h5></br>
+                <h6><?php echo $movie['description']; ?></h6></br>
             </div>
-            <div><a href= <?php echo $movie['video_link'];?> class="btn btn-danger"> Regarder le film </a></div>
-            </div>
-            </div>
+            <div><a href= <?php echo $movie['video_link'];?> class="btn btn-danger"> Regarder le film </a></div><hr>
+            <a href="<?="movie_edit.php?id=". $movie['id'] ?>" class="btn btn-outline-info">Modifier</a>
+            <a href="<?="movie_delete.php?id=".$movie['id'] ?>" class="btn btn-outline-warning">Supprimer</a>
+        </div>
+    </div>
             
 
  </main>
